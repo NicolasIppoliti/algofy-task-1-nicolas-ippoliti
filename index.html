@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Portfolio | Nicolas Ippoliti</title>
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- Boxicons link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <a class="logo" href="#home"><span>N</span>icolas</a>
+      <ul class="navbar">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-btn">
+        <span>MENU</span>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+    <!-- Home -->
+    <section class="home-about" id="home">
+      <div class="home-about-text">
+        <span>Software Developer</span>
+        <h1>Nicolas Ippoliti</h1>
+        <p>
+          I'm a software developer based in Buenos Aires, Argentina. I have a
+          passion for web development and love to create for web and mobile
+          devices.
+        </p>
+        <div class="main-btn">
+          <a class="btn" href="#">Download CV</a>
+          <a class="btn two" href="#">Hire Me Now</a>
+        </div>
+      </div>
+      <div class="home-about-img">
+        <img
+          alt="Nicolas Ippoliti Avatar Photo"
+          src="./assets/images/home.png"
+        />
+      </div>
+    </section>
+    <!-- About -->
+    <section class="home-about" id="about">
+      <div class="home-about-text">
+        <h1>About Me</h1>
+        <p>
+          I am Nicolas Ippoliti, a passionate software developer from Buenos
+          Aires, Argentina.
+          <p id="hiddenContent">
+            I'm a fullstack web developer who loves to create solutions to real problems. I love learning new technologies and applying them in my projects.
+          </p>
+          <div class="main-btn">
+            <button type="button" class="btn" id="toggleContent">
+              Read More
+            </button>
+          </div>
+        </p>
+      </div>
+      <div class="home-about-img">
+        <img alt="About Nicolas Ippoliti" src="./assets/images/home.png" />
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <h1>Contact Me</h1>
+      <p>
+        If you have any questions or would like to work with me, please feel
+        free to get in touch!
+      </p>
+      <form action="#" method="post">
+        <input name="name" placeholder="Your Name" type="text" />
+        <input name="email" placeholder="Your Email" type="email" />
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <div class="share">
+      <p>Check out my:</p>
+      <div class="social">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+        <a href="#"><i class="bx bxl-discord"></i></a>
+      </div>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- JS Script -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
