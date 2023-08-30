@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Comercios Argentinos",
+    "description": "Find the best local businesses and discover what your city has to offer.",
+    "image": "./assets/images/comerciosargentinos.png",
+    "github": "https://github.com/NicolasIppoliti/comercios-argentinos"
+  },
+  {
+    "name": "Espacio Web",
+    "description": "Digital Agency Website",
+    "image": "./assets/images/espacioweb.png",
+    "github": "https://github.com/NicolasIppoliti/agencia-digital"
+  },
+  {
+    "name": "Elsie Boutique",
+    "description": "E-commerce created in React for a Clothing Store.",
+    "image": "./assets/images/elsieboutique.jpg",
+    "github": "https://github.com/NicolasIppoliti/elsie-boutique"
+  }
+]

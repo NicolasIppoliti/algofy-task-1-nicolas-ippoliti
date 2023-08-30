@@ -23,6 +23,7 @@
     <ul class="navbar">
       <li><a class="active" href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
     <div class="menu-btn">
@@ -75,14 +76,28 @@
   <section class="projects" id="projects">
     <h1>Projects</h1>
     <ul>
-      {% for project in projects %}
+      
       <li>
-        <img alt="{{ project.name }}" src="{{ project.image }}" />
-        <h3>{{ project.name }}</h3>
-        <p>{{ project.description | truncate: 100 }}</p>
-        <a href="{{ project.github }}" target="_blank">View on GitHub</a>
+        <img alt="Comercios Argentinos" src="./assets/images/comerciosargentinos.png" />
+        <h3>Comercios Argentinos</h3>
+        <p>Find the best local businesses and discover what your city has to offer.</p>
+        <a href="https://github.com/NicolasIppoliti/comercios-argentinos" target="_blank">View on GitHub</a>
       </li>
-      {% endfor %}
+      
+      <li>
+        <img alt="Espacio Web" src="./assets/images/espacioweb.png" />
+        <h3>Espacio Web</h3>
+        <p>Digital Agency Website</p>
+        <a href="https://github.com/NicolasIppoliti/agencia-digital" target="_blank">View on GitHub</a>
+      </li>
+      
+      <li>
+        <img alt="Elsie Boutique" src="./assets/images/elsieboutique.jpg" />
+        <h3>Elsie Boutique</h3>
+        <p>E-commerce created in React for a Clothing Store.</p>
+        <a href="https://github.com/NicolasIppoliti/elsie-boutique" target="_blank">View on GitHub</a>
+      </li>
+      
     </ul>
   </section>
   <!-- Contact -->
